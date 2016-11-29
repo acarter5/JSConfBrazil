@@ -1,0 +1,398 @@
+/*   GLOBAL   */
+
+ html {
+        font-family: "Open Sans", Arial, sans-serif;
+    }
+    body {
+        margin: 0;
+        font-size: 13px;
+        color: #444;
+}
+
+body > div {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #008000;
+  font-weight: bold;
+}
+
+strong, 
+b {
+  font-weight: bold;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf:before,
+.cf:after {
+  display: block;
+  content: "";
+}
+
+/*   HIDDEN   */
+
+#mnu {
+  display: none;
+  position: fixed;
+  top:0;
+  left:0;
+}
+
+/*   HEADER   */
+
+#front {
+  background: url(front.jpg) 50% 50% no-repeat;
+  text-align: center;
+  color: #fff;
+  height: 300px;
+}
+
+#front img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 90px;
+}
+
+#front h1 {
+  text-align: center;
+    position: relative;
+  top: 90px;
+  font-size: 40px;
+}
+
+#front h2 {
+  text-align: center;
+  text-transform: uppercase;
+    position: relative;
+  top: 90px;
+  font-size: 20px;
+}
+
+
+/*   MAIN   */
+
+.section {
+  margin: 0 30px;
+  padding-bottom: 60px;
+  border-top: 1px solid #efefef;
+}
+
+.section h1 {
+  text-align: center;
+   font-weight: 100;
+      margin: 1.236em 0 .618em;
+    font-size: 48px;
+}
+
+.section p {
+      font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0 auto 17px; 
+    max-width: 960px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.button {
+  background: #008000;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+
+
+
+/*   SPEAKERS   */
+
+.speakers {
+  text-align: center;
+}
+
+.block-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sbox {
+  display: inline-block;
+  text-align: center;
+  width: 280px;
+  height: 380px;
+  border: 1px solid #e8e8e8;
+  margin: 5px;
+  position: relative;
+}
+
+.hover-block {
+  background: rgba(0,0,0,.9);
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sbox:hover .hover-block {
+  opacity: 1;
+}
+
+.hover-block p {
+  font-size: 13px;
+  line-height: 15px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.speakers h2 {
+      margin: 30px 0 4px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+/*   SCHEDULE   */
+
+.schedule-grid {
+  border-bottom: 1px solid #e8e8e8;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.schedule-grid tr {
+  border-top: 1px solid #e8e8e8;
+  display: block;
+  position: relative;
+}
+
+.schedule-grid td {
+  padding: 10px;
+  display: block;
+}
+
+.schedule-grid .schedule-hr {
+  padding: 20px;
+  font-size: 24px;
+  text-align: right;
+}
+
+.schedule-grid .schedule-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.schedule h2 {
+  font-size: 24px;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.schedule h3 {
+  margin: 8px 0 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.extra {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 1px 4px;
+  font-size: 7px;
+  background: #eee;
+  border: 1px solid #aaa;
+}
+
+.schedule-photo img {
+  width: 80px;
+}
+
+#map {
+  background: #efefef;
+  height: 500px;
+  margin: 30px -30px;
+}
+
+/*  SPONSORS   */
+
+.sponsors {
+  margin: 0 10px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto 17px;
+  line-height: 25px;
+}
+
+.sponsors h2 {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  margin: 30px 0 4px;
+}
+
+.sponsor-list li {
+  float: left;
+}
+
+.sponsor-list a {
+  margin-right: 40px;
+}
+
+.sponsor-list.gold {
+  max-width: 680px;
+}
+
+.platinum a {
+  margin-right: 0;
+}
+
+.gold img,
+.platinum img {
+  width: 300px;
+  height: 247px;
+}
+
+.silver img {
+  width: 240px;
+  height: 197.59px;
+}
+
+.support img {
+  width: 180px;
+  height: 148.19px;
+}
+
+
+/*   FOOTER   */
+
+#team.section {
+  margin: 0;
+}
+
+#team {
+  color: #fff;
+  height: 280px;
+  background: url(img-footer.jpg) 50% 23% no-repeat;
+  background-size: cover !important; 
+}
+
+#team h1 {
+  text-align: center;
+  font-size: 35px;
+  margin: .618em 0;
+  font-weight: 100;
+  max-width: 960px
+}
+
+#team h2 {
+  font-size:31px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 auto;
+  text-transform: uppercase;
+  max-width: 960px;
+
+}
+
+.dark-background {
+  background: rgba(0,0,0,.7);
+  padding: 10px;
+}
+
+/*   Breakpoints  */
+
+@media (min-width: 588px) {
+
+.section.speakers {
+  margin: 0;
+}
+
+}
+
+@media (min-width: 655px) {
+  #mnu {
+    display: block;
+    z-index: 50;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #mnu ul {
+    margin: 0 auto;
+    text-align: center;
+   background: #FFF;
+    border-top: 10px solid #F5F5F5;
+    border-bottom: 1px solid #EEE;
+  }
+
+  #mnu li {
+    display: inline-block;
+    margin: 0 25px;
+  }
+
+  #mnu li a {
+    color: #444;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 44px;
+  }
+
+  #front {
+    position: relative;
+    top: 55px;
+    margin-bottom: 55px;
+    height: 428px;
+  }
+
+  #front img,
+  #front h1,
+  #front h2 {
+    top: 150px;
+  }
+
+  #front h1 {
+    font-size: 72px;
+  }
+
+  #front h2 {
+    font-size: 31px;
+  }
+
+
+.schedule-grid tr {
+  display: table-row;
+}
+
+.schedule-grid td {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+.schedule-grid .schedule-photo {
+  position: static;
+}
+
+.schedule-photo img {
+  width: 130px;
+}
+}
