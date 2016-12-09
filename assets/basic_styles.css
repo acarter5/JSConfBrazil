@@ -292,6 +292,7 @@ b {
   height: 280px;
   background: url(img-footer.jpg) 50% 23% no-repeat;
   background-size: cover !important; 
+  display: block;
 }
 
 #team h1 {
@@ -315,6 +316,7 @@ b {
 .dark-background {
   background: rgba(0,0,0,.7);
   padding: 10px;
+  display: block;
 }
 
 /*   Breakpoints  */
@@ -394,5 +396,9 @@ b {
 
 .schedule-photo img {
   width: 130px;
+}
+
+#team h1 {
+  font-size: 48px;
 }
 }
